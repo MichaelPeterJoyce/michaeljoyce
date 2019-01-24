@@ -1,61 +1,63 @@
 @import '../../styles/breakpoints';
 
-.social-icons {
-    padding: 0.25rem 0;
-    font-size: 3rem;
+.landing-page {
+    min-height: 100vh;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    justify-content: center;
 
-    @include breakpoint-small-down {
-        font-size: 2.5rem;
-    }
+    main {
+        display: flex;
+        flex: 1 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3.25rem 1.5rem 1rem;
+        text-align: center;
 
-    a {
-        padding: 0 0.625rem;
+        @include breakpoint-small-down {
+            padding: 4.25rem 1.5rem 1rem;
+        }
 
-        &.devto svg {
-            margin-bottom: -0.25rem;
-            width: 2.7rem;
-            height: 2.7rem;
+        .intro-wrapper {
+            flex: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
 
-            @include breakpoint-small-down {
-                margin-bottom: -0.225rem;
-                width: 2.25rem;
-                height: 2.25rem;
+            >.intro-name {
+                font-family: 'Reem Kufi', sans-serif;
+                font-size: 4rem;
+                font-weight: bold;
+                line-height: 4rem;
+                padding-bottom: 1rem;
+
+                @include breakpoint-small-down {
+                    font-size: 3rem;
+                    line-height: 3.5rem;
+                }
+            }
+
+            >.tagline {
+                font-size: 1.375rem;
+                margin: 1.5rem 0;
+                font-weight: 300;
+
+                @include breakpoint-small-down {
+                    font-size: 1.25rem;
+                }
             }
         }
-    }
 
-    &.animate-icons {
-        a {
-            display: inline-block;
-            transform: perspective(1px) translateZ(0);
-            box-shadow: 0 0 1px transparent;
+        .browser-notes {
+            font-size: 0.75rem;
 
-            &:hover,
-            &:focus,
-            &:active {
-                animation-name: icon-wobble;
-                animation-duration: 0.75s;
-                animation-timing-function: ease-in-out;
-                animation-iteration-count: 1;
+            span {
+                border-width: 1px;
+                border-style: solid;
+                padding: 0.125rem 0.5rem;
             }
-        }
-    }
-
-    @keyframes icon-wobble {
-        25% {
-            transform: translateY(-8px);
-        }
-
-        50% {
-            transform: translateY(0px);
-        }
-
-        75% {
-            transform: translateY(-4px);
-        }
-
-        100% {
-            transform: translateY(0px);
         }
     }
 }
