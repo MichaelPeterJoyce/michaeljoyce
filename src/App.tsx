@@ -3,6 +3,7 @@ import Layout from './hoc/Layout';
 import LandingPage from './Pages/LandingPage/LandingPage';
 import PortfolioPage from './Pages/PortfolioPage/PortfolioPage';
 import AboutPage from './Pages/AboutPage/AboutPage';
+import './styles/App.scss';
 
 class App extends Component {
   render() {
