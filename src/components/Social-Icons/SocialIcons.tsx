@@ -7,10 +7,10 @@ export default class SocialIcons extends Component {
     return (
       <div className="social-icons animate-icons">
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/MichaelPeterJoyce" style={{ color: colorPrimary }}>
-          <FontAwesomeIcon className='icon' icon={['fab', 'github']} size='2x' color='black' />
+          <FontAwesomeIcon className='icon' icon={['fab', 'github']} size='2x' color='white' />
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/joycemichael" style={{ color: colorPrimary }}>
-          <FontAwesomeIcon className='icon' icon={['fab', 'linkedin']} size='2x' color='black' />
+          <FontAwesomeIcon className='icon' icon={['fab', 'linkedin']} size='2x' color='white' />
         </a>
       </div>
     )
