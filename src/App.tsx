@@ -14,8 +14,8 @@ class App extends Component {
       <div className="App">
         <Layout>
           <LandingPage></LandingPage>
-          <PortfolioPage></PortfolioPage>
           <AboutPage></AboutPage>
+          <PortfolioPage></PortfolioPage>
         </Layout>
       </div>
     );
