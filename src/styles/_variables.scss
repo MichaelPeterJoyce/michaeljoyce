@@ -1,1 +1,9 @@
 $text-color-primary: #fff;
+
+$primary-color: #2998ff;
+
+$color-primary-light: lighten($primary-color, 20%);
+$color-primary-dark: darken($primary-color, 30%);
+
+
+$grey-background-color: #485564

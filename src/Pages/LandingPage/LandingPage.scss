@@ -7,6 +7,14 @@
     flex: 0 1 auto;
     flex-direction: column;
     justify-content: center;
+    background-color: $grey-background-color;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+     background-image: linear-gradient(to right bottom,
+     rgba($color-primary-light, 0.9),
+     rgba($color-primary-dark, 0.81)),
+     url("../../assets/img/laptop.jpg");
+     background-size: cover;
+     background-position: top;
 
     main {
         display: flex;
