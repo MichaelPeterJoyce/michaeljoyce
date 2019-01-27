@@ -13,7 +13,7 @@ export default class LandingPage extends Component {
           <div className="intro-wrapper">
             <div className="intro-name">Michael Joyce</div>
             <div className="tagline">
-              UI Developer - Dundalk Ireland
+              UI Developer - Dundalk, Ireland
           </div>
             <SocialIcons />
           </div>

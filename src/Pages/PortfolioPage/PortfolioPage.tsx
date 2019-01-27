@@ -6,12 +6,12 @@ export default class PortfolioPage extends Component {
     render() {
         return (
             <div className="portfolio-page">
-                <div className="content-grid">
+                <div className="container content-grid">
                     <h1>Portfolio</h1>
                     <div className="portfolio-wrapper">
                         <PortfolioItem
                             name='Abinitio'
-                            url={'http://skillsboost.com'}
+                            url={'https://celtechgroup.com/'}
                         />
                         <PortfolioItem
                             name='TellUsFirst'
@@ -19,7 +19,7 @@ export default class PortfolioPage extends Component {
                         />
                         <PortfolioItem
                             name='Skillsboost'
-                            url={'https://demo2.ab-initio.online/#/login'}
+                            url={'https://skillsboost.com/'}
                         />
                     </div>
                 </div>
