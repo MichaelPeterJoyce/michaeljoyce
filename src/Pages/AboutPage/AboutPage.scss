@@ -3,6 +3,7 @@
 
 .about-page {
     padding-top: 2rem;
+    color: $text-color-secondary;
     min-height: 70vh;
     display: flex;
     flex: 0 1 auto;
@@ -16,7 +17,7 @@
 
     h1 {
         padding: 1rem 0;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .content-grid {

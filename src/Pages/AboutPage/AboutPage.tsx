@@ -14,10 +14,7 @@ export default class AboutPage extends Component {
                                 I like <span style={{fontWeight: 600}}>JavaScript</span> and everything web.
                             </p>
                             <p>
-                                ........
-                            </p>
-                            <p>
-                                Angular 2+, Angular.js, React,js, Backbone.js, are the main Javascript frameworks i have worked with.
+                                I am a frontend web developer with experience using Angular 7, Angular.js, React.js, Backbone.js and jQuery and Bootstrap to create front end web applications for my current employer Celtech Software Group.
                             </p>
                             <p className="text-emoji">
                                 \ (•◡•) /
