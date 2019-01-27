@@ -2,7 +2,16 @@
 @import '../../styles/variables';
 
 .portfolio-item{
-  width: 40rem;
+  width: 100%;
   margin-bottom: 5rem;
   color: $text-color-secondary;
+
+
+
+  ul{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    list-style-type: disc;
+  }
 }
+

@@ -8,11 +8,11 @@ class PortfolioItem extends Component<PortfolioItemInterface> {
 
         switch (this.props.name) {
             case 'Skillsboost':
-                description = 'skillsboost';
+                description = require("../../assets/posts/skillsboost.html");
                 image = 'skillsboost.png';
                 break;
             case 'Abinitio':
-                description = 'Abinitio';
+                description = require("../../assets/posts/abinitio.html");
                 image = 'abinitio.png';
                 break;
             case 'TellUsFirst':

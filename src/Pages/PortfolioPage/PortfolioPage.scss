@@ -14,12 +14,10 @@
     color: $text-color-primary;
 
     background-size: cover;
-    transform: skewY(-7deg);
+
     margin-top: -10rem;
 
-    &>* {
-        transform: skewY(7deg);
-    }
+
 
 
     @include breakpoint-small-down {
@@ -29,7 +27,8 @@
     h1 {
         padding: 1rem 0;
         font-size: 2.5rem;
-        margin-top: 5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
     .content-grid {
@@ -37,8 +36,7 @@
     }
 
     .portfolio-wrapper {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
         justify-content: center;
 
         @include breakpoint-small-down {
