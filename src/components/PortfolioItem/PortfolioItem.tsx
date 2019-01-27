@@ -11,7 +11,7 @@ class PortfolioItem extends Component<PortfolioItemInterface> {
                 description = require("../../assets/posts/skillsboost.html");
                 image = 'skillsboost.png';
                 break;
-            case 'Abinitio':
+            case 'Abinitio Version 6':
                 description = require("../../assets/posts/abinitio.html");
                 image = 'abinitio.png';
                 break;

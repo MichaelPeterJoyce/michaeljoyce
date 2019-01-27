@@ -6,11 +6,11 @@ export default class PortfolioPage extends Component {
     render() {
         return (
             <div className="portfolio-page">
-                <div className="container content-grid">
+                <div className="container">
                     <h1>Portfolio</h1>
                     <div className="portfolio-wrapper">
                         <PortfolioItem
-                            name='Abinitio'
+                            name='Abinitio Version 6'
                             url={'https://celtechgroup.com/'}
                         />
                         <PortfolioItem
