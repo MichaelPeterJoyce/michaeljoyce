@@ -5,8 +5,47 @@
             and unique customer experiences - to accelerate a retailer's growth and profitability"
         </i>
     </p>
-    <p>Abinitio V6 is the current project I am working on with Celtech Software Group
+    <p>Abinitio V6 is the current project I am working on with Celtech Software Group.
+        Abintitio V6 is the largest frontend project I have worked on. The project was built using Angular.js 1.4
+        and built with Grunt.js.
+        When I joined Celtech the application was well under way with development using Angular.js 1.4 but was not
+        following the style guide by John Papa for Angular.js which is recomennded by the industry. The project was
+        built with grunt and had a local folder of vendor javascript files that where out of date.
     </p>
+    <p>
+        We decided it would be best to spend some time getting the application ready to upgrade to a newer version of
+        Angular 2+ with Webpack. We began by upgrading to Angular.js 1.6 and converting all the controller - view
+        combos
+        to Angular.js 1.6 components. We also took this oppurtunity to move to ES6 javascript.
+    </p>
+    <p>
+        Refactoring such a massive code base took a long time and we made progress during sprints by allowing some time
+        for tech debt at the end.
+        In the meantime we started the move from Grunt to Webpack 4 to allow us easier use of ES6 imports for
+        our project.
+        I spent a sprint creating the webpack development and production configuration files. We implemented the
+        configuration for Webpack 4 and moved all our local Javscript vendor files to dependecies from NPM
+    </p>
+    <p>
+        The next step on our road to upgrading was to move to Typescript. Typescript is becoming very popular in the
+        industry and the IDE experience for development and the strong typing and interfaces which we could build to
+        match the Java backend where major motivators in taking the time to refactor everything to typescript.
+    </p>
+    <p>
+        Once we had moved to Webpack and had refactored most of the code to follow the style guide and use typescript I
+        introduced Angular
+        7 to the application in a hybrid state. All new components are created using Angular 7 and we use ngDowngrade
+        to downgrade them for use in the large Angular.js codebase. This allows us to go back and rewrite older
+        Angular.js components to Angular 7 while still keeping a shippable product.
+    </p>
+    <h4>The Application</h4>
+    <p>
+        The Application is an admin application for a user to login and view report data for thier products. The
+        application has
+        CRUD screens for creating new products, promotions, customers and allows for the management of GDPR requests.
+    </p>
+    <p>The application connects to a RESTFul API backend built using SpringBoot. The SpringBoot application works with
+        an older IBM DB2 Database which is used by the older V5 version of the product for compatibilty</p>
     <ul>
         <li>Angular.js 1.6</li>
         <li>Angular 7.1.1</li>
