@@ -8,7 +8,7 @@ export default class LandingPage extends Component {
   render() {
     return (
       <div className="landing-page">
-        <Navigation></Navigation>
+        <Navigation/>
         <main>
           <div className="intro-wrapper">
             <div className="intro-name">Michael Joyce</div>

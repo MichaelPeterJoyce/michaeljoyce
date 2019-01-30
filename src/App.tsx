@@ -13,9 +13,9 @@ class App extends Component {
     return (
       <div className="App">
         <Layout>
-          <LandingPage></LandingPage>
-          <AboutPage></AboutPage>
-          <PortfolioPage></PortfolioPage>
+          <LandingPage/>
+          <AboutPage/>
+          <PortfolioPage/>
         </Layout>
       </div>
     );

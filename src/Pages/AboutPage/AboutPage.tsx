@@ -20,15 +20,15 @@ export default class AboutPage extends Component {
                 employer Celtech Software Group.
               </p>
               <p>
-                I commute for Work from Dundalk, Co. Louth to Dublin via Train.
-                This gives me quite a lot of time on the train to improve my JavaScript skillset.
-                I have used this oppurtunity to take Udemy courses on Angular, React, SASS, SQL, Vue.js, and Node.js with Express
+                I commute for Work from Dundalk, Co.Louth to Dublin via Train.
+                This gives me quite a lot of time on the train to improve my JavaScript skill set.
+                I have used this opportunity to take Udemy courses on Angular, React, SASS, SQL, Vue.js, and Node.js with Express
               </p>
               <p>
-                This current portfolio site is built using <strong>React.js</strong> ,some custom SASS and bootstrap 4
+                This current portfolio site is built using <strong>React.js</strong>, some custom SASS and bootstrap 4
               </p>
               <p>
-                Scroll down to see some of the larger commerical projects I have worked on while working for Optimum Results and Celtech Software Ltd.
+                Scroll down to see some of the larger commercial projects I have worked on while working for Optimum Results and Celtech Software Ltd.
               </p>
               <p className="text-emoji">
                 \ (•◡•) /
