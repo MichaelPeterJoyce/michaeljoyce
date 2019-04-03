@@ -10,7 +10,7 @@ export default class AboutPage extends Component {
           <div className="about-wrapper">
             <div className="about-content">
               <p>
-                My name is Michael Joyce. I am a 27 year old UI/Frontend Developer from Dundalk, Louth,
+                My name is Michael Joyce. I am a 28 year old UI/Frontend Developer from Dundalk, Louth,
                 Ireland
                 I like <span style={{ fontWeight: 600 }}>JavaScript</span> and everything web.
               </p>
