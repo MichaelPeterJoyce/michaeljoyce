@@ -10,19 +10,17 @@ export default class AboutPage extends Component {
           <div className="about-wrapper">
             <div className="about-content">
               <p>
-                My name is Michael Joyce. I am a 28 year old UI/Frontend Developer from Dundalk, Louth,
+                My name is Michael Joyce. I am a 28 year old Web Application Developer from Dundalk, Louth,
                 Ireland
                 I like <span style={{ fontWeight: 600 }}>JavaScript</span> and everything web.
               </p>
               <p>
-                I am a frontend web developer with experience using Angular 7, Angular.js, React.js,
-                Backbone.js and jQuery and Bootstrap to create front end web applications for my current
-                employer Celtech Software Group.
+                I am an experienced Web application developer with experience using Angular.js, Angular 7, React.js with Redux, Backbone.js, Node.js and JAVA (Spring Boot).
+                I have worked commercially with agile software teams as part of agile development.
               </p>
               <p>
-                I commute for Work from Dundalk, Co.Louth to Dublin via Train.
-                This gives me quite a lot of time on the train to improve my JavaScript skill set.
-                I have used this opportunity to take Udemy courses on Angular, React, SASS, SQL, Vue.js, and Node.js with Express
+                While I have specialized and focus on Web technologies using Javascript I also have knowledge and have worked on Android applications written in Java and Kotlin.
+                I also have worked on the full software web stack using a combination of Node.js with the Express framework on some small internal projects within Celtech and with JAVA using the Spring boot framework both integrating with a relational PostgreSQL database.
               </p>
               <p>
                 This current portfolio site is built using <strong>React.js</strong>, some custom SASS and bootstrap 4
